@@ -2,9 +2,9 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500|Oswald:200,300,400");
 $base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Raleway", "Helvetica", "sans-serif";
+$header-font: "Oswald", "Helvetica", "sans-serif";
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -24,13 +24,13 @@ $base-height: 1.4;
  * Colors
  * ------------------------------------- */
 // Scheme
-$brand-color: #D23333;
+$brand-color: #1D1E18;
 
-$red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
+$red: #B48B7D;
+$blue: #AFC2D5;
+$yellow: #FFF9A5;
 $orange: #E67E22;
-$green: #32B796;
+$green: #CCDDD3;
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222

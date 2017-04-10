@@ -1,0 +1,16 @@
+feature1:
+  header: Discover the world
+  image: https://unsplash.it/200?random
+  description: It's cool out there.
+feature2:
+  header: Pay online
+  image: https://unsplash.it/200?random
+  description: No cash issues anymore.
+feature3:
+  header: Meet people
+  image: https://unsplash.it/200?random
+  description: Discover new culture and lifestyle.
+feature4:
+  header: Share and love
+  image: https://unsplash.it/200?random
+  description: Join a community you will love.

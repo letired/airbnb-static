@@ -1,0 +1,11 @@
+<div class="container text-center padded features">
+  <div class="row">
+    <% data.features.each do |feature, attribute| %>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <%= image_tag attribute.image %>
+      <h2><%= attribute.header %></h2>
+      <p><%= attribute.description %></p>
+    </div>
+    <% end %>
+  </div>
+</div>
