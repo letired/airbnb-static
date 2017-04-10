@@ -1,0 +1,12 @@
+<ul class="list-inline text-center">
+  <% ["boris", "seb", "romain"].each do |member| %>
+    <li>
+    <% if sitemap.find_resource_by_path("images/#{member}.jpg") %>
+      <%= image_tag "#{member}.jpg", class: "avatar-team" %>
+      <% else %>
+      <%= image_tag "middleman.png", class: "avatar-team" %>
+      <% end %>
+      <h3><%= member.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
